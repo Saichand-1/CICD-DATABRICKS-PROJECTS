@@ -14,9 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     environment: development
     env:
-      DATABRICKS_HOST: ${{ secrets.DEPLOYMENT_TARGET_URL }}
-      DATABRICKS_TOKEN: ${{ secrets.DEPLOYMENT_TARGET_TOKEN }}
-      REPO_PATH: /Workspace/Users/nicolaj.schmit@hotmail.com/workspace-builder
+      DATABRICKS_HOST: ${{ secrets.DEV_URL }}
+      DATABRICKS_TOKEN: ${{ secrets.DEV_SECRET_TOKEN }}
+      REPO_PATH: /Workspace/Users/saichandkomuravelli@gmail.com/workspace-builder
 
     steps:
       # Checkout repository
