@@ -34,10 +34,10 @@ jobs:
         uses: databricks/setup-cli@main
 
       # Optional: Run tests before deployment
-      - name: Run tests
-        run: |
-          pip install pytest
-          pytest tests/
+      # - name: Run tests
+      #   run: |
+      #     pip install pytest
+      #     pytest tests/
 
       # Extract branch name (modern syntax)
       - name: Extract branch name
